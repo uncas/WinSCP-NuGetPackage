@@ -15,7 +15,8 @@
     <tags>sftp scp ftps ftp winscp</tags>
   </metadata>
   <files>
-    <file src="bin\*.*" target="tools" />
+    <file src="bin\*.com" target="tools" />
+    <file src="bin\*.exe" target="tools" />
     <file src="bin\*" target="tools" />
   </files>
 </package>
