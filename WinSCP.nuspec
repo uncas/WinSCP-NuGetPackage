@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WinSCP</id>
+    <version>$version$</version>
+    <authors>Martin Prikryl</authors>
+    <owners>Ole Lynge Soerensen</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <copyright>Copyright 2012</copyright>
+    <projectUrl>http://winscp.net</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <title>WinSCP</title>
+    <summary>WinSCP is a free SFTP client, SCP client, FTPS client and FTP client for Windows.</summary>
+    <description>WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer. Beyond this, WinSCP offers scripting and basic file manager functionality.</description>
+    <tags>sftp scp ftps ftp winscp</tags>
+  </metadata>
+  <files>
+    <file src="bin\*.*" target="tools" />
+    <file src="bin\*" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,1 @@
+nuget pack WinSCP.nuspec -version 4.3.7
