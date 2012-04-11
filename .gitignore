@@ -1,2 +1,6 @@
 *.nupkg
 *~
+*.exe
+*.com
+/bin/licence
+/bin/readme
